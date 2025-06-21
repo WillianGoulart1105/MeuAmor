@@ -9,15 +9,14 @@ html, body {
   background-color: #000;
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow-x: hidden;
 }
 
 .container {
   text-align: center;
-  padding: 30px;
-  border-radius: 20px;
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: 40px auto;
 }
 
 h1 {
@@ -77,4 +76,5 @@ h1 {
 .mensagem {
   font-size: 18px;
   line-height: 1.6;
+  margin-top: 20px;
 }
